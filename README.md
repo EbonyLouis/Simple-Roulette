@@ -1,6 +1,6 @@
 # :dollar: Super Simple Roulette Game
 
-# Goal: Is to create an app that lets a user choose a number, color, and bet amount. The user is able to do this without logging in. If they win their money will double, if not they lose that bet amount. The owner is the only one able to login, that account is able to get an overview of the casino's winnings/losses. *styling: work in progress*
+## Goal: Is to create an app that lets a user choose a number, color, and bet amount. The user is able to do this without logging in. If they win their money will double, if not they lose that bet amount. The owner is the only one able to login, that account is able to get an overview of the casino's winnings/losses. *styling: work in progress*
 
 
 * **Image of home Page**
@@ -25,7 +25,7 @@
     * The amount of money the casino has _lost_ for the day
   * The Owner has successfully logged in using the passport module, a chart with the information above is displayed. (login info)
   ```
-  Email: Bossman@yahoo.comp
+  Email: Bossman@yahoo.com
   Password: 212121
   ```
 
