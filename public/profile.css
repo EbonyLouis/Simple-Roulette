@@ -1,0 +1,27 @@
+h1{
+  font-size: 30px;
+  text-align: center;
+  color: magenta;
+}
+body{
+  background-color: black;
+}
+
+td{
+  color: navajowhite;
+  border: 2px solid magenta;
+  text-align: center;
+  width: 20%;
+  height: 92px;
+  font-size: 22px;
+  font-weight: bold;
+
+}
+
+table{
+    text-align: center;
+    margin:auto;
+}
+a{
+  color: navajowhite;
+}

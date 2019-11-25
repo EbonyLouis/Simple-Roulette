@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="profile.css">
+    <title>Command Center</title>
+  </head>
+  <body>
+    <section>
+      <a href="index.html">Logout</a>
+    </section>
+    <h1> Casino Cash Overview</h1>
+
+
+    <TABLE>
+   <TR>
+      <TD>Number of Loses</TD>
+      <TD>Number of Wins</TD>
+      <TD>Amount of Money Lost</TD>
+      <TD>Amount of Money Won</TD>
+   </TR>
+   <TR>
+      <TD><%= data[0].local.win %></TD>
+      <TD><%= data[0].local.lost %></TD>
+      <TD>$<%= data[0].local.winnings %></TD>
+      <TD>$<%= data[0].local.losses %></TD>
+   </TR>
+</TABLE>
+  </body>
+</html>
